@@ -9,7 +9,11 @@ https://templatemo.com/tm-531-reflux
 @import url(fontawesome.css);
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 #page-wraper {
@@ -125,7 +129,7 @@ html {
 .main-nav li:hover a,
 .main-nav li.active a {
   background: #fff;
-  color: #007bff;
+  color: #525d7e;
 }
 
 /* Sidebar Menu */
@@ -139,6 +143,7 @@ html {
   height: 140px;
   border-radius: 50%;
   text-align: center;
+  border: 2px solid white;
 }
 
 .menu .author-content {
@@ -151,7 +156,7 @@ html {
 
 .menu .author-content span {
   font-size: 13px;
-  font-style: italic;
+  /* font-style: italic; */
   color: #fff;
 }
 
@@ -222,7 +227,7 @@ html {
   left: 10%;
   -webkit-transition: -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1);
   -webkit-overflow-scrolling: touch;
-  background-color: #007bff;
+  background-color: #525d7e;
   box-sizing: border-box;
   height: 100vh;
   max-height: 100vh !important;
@@ -306,7 +311,7 @@ html {
 .section-heading .line-dec {
   width: 60px;
   height: 3px;
-  background-color: #007bff;
+  background-color: #525d7e;
   margin: 10px auto;
 }
 
